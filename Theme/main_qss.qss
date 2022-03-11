@@ -1,0 +1,59 @@
+QLineEdit{
+    border: 1px solid #C5C5F8;
+    border-radius: 4px;
+}
+
+QListWidget{
+    border: 0px;
+    border-radius: 4px;
+}
+
+QScrollArea{
+    border: 0px;
+    border-radius: 4px;
+}
+
+QPushButton#search_button{
+    border-radius: 4px;
+    border: 0px;
+    background: #8598FC;
+    qproperty-icon: url(:/Icons/Images/search.png);
+    qproperty-iconSize: 33px 33px;
+}
+
+QPushButton#close_button{
+    border: 0px;
+    qproperty-icon: url(:/Icons/Images/close.png);
+    qproperty-iconSize: 30px 30px;
+}
+
+QPushButton#mini_button{
+    border: 0px;
+    qproperty-icon: url(:/Icons/Images/mini.png);
+    qproperty-iconSize: 30px 30px;
+}
+
+QPushButton#download_button{
+    border: 0px;
+    qproperty-icon: url(:/Icons/Images/download.png);
+    qproperty-iconSize: 40px 40px;
+}
+
+QPushButton#clear_button{
+    border: 0px;
+    qproperty-icon: url(:/Icons/Images/clear.png);
+    qproperty-iconSize: 40px 40px;
+}
+
+QFrame#msg_frame{
+    border: 1px solid #000000;
+    border-radius: 20px;
+    background: #ffffff;
+}
+
+QPushButton#back_button{
+    border: 1px;
+    border-radius: 4px;
+    background: #8598FC;
+    color: #ffffff;
+}
